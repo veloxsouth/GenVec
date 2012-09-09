@@ -120,7 +120,6 @@ void MyOpenGLCanvas::render()
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	m_pop->generate();
 	m_pop->express();
 	glFlush();
 	SwapBuffers();
